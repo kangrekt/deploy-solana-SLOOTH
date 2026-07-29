@@ -383,8 +383,13 @@ h3 {
 }
 
 .brutal-card p {
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-size: 1.4rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--black);
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 3px dashed var(--black);
 }
 
 /* Roadmap */
