@@ -16,7 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Public Sans', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
 }
 
 body {
@@ -101,9 +101,14 @@ body {
 /* Typography */
 h1,
 h2,
-h3 {
+h3,
+.logo,
+.btn,
+.badge {
     text-transform: uppercase;
     font-weight: 900;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
 }
 
 /* Navbar */
