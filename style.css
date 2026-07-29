@@ -452,7 +452,7 @@ footer {
     .ca-box {
         flex-direction: column;
         gap: 1rem;
-        width: calc(100% - 16px);
+        width: 100%;
     }
 
     #ca-text {
@@ -462,7 +462,7 @@ footer {
 
     .socials {
         grid-template-columns: 1fr;
-        width: calc(100% - 16px);
+        width: 100%;
     }
 
     .hero-title {
@@ -472,8 +472,9 @@ footer {
     .image-box {
         height: auto;
         aspect-ratio: 1 / 1;
-        width: calc(100% - 16px);
+        width: 100%;
         max-width: 100%;
+        margin: 0;
     }
 
     .brutal-card h3 {
