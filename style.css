@@ -427,6 +427,13 @@ footer {
     .brutal-card h3 {
         font-size: 2.5rem;
     }
+    .brutal-card {
+        padding: 2rem 1rem;
+    }
+    .section-title {
+        font-size: 2.5rem;
+        word-break: break-word;
+    }
     .grid-3 {
         grid-template-columns: 1fr;
     }
