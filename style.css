@@ -461,8 +461,14 @@ footer {
     }
 
     .socials {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
         width: 100%;
+        gap: 0.8rem;
+    }
+
+    .socials .btn-social {
+        padding: 0.8rem 0.5rem;
+        font-size: 0.85rem;
     }
 
     .hero-title {
